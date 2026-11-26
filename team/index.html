@@ -181,10 +181,10 @@ button{font:inherit;color:inherit}
 .p-head{padding-block:calc(env(safe-area-inset-top) + clamp(140px,20vh,200px)) clamp(56px,8vh,96px)}
 .p-head .h1{margin-top:20px;max-width:14em;font-size:clamp(44px,5vw,76px)}
 .people{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(40px,5vw,64px) 16px;padding-bottom:clamp(110px,16vh,180px)}
-.person .ph{position:relative;aspect-ratio:4/5;border-radius:var(--r);overflow:hidden;background:#FFFFFF}
-.person .ph::after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(10,10,10,.06);pointer-events:none}
+.person .ph{position:relative;width:min(200px,62%);aspect-ratio:1/1;border-radius:50%;overflow:hidden;background:#FFFFFF}
+.person .ph::after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(10,10,10,.08);pointer-events:none}
 .person img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;filter:grayscale(1) contrast(1.04);transform:scale(var(--s,1));transform-origin:50% var(--o,50%)}
-.person h2{margin-top:18px;font-size:20px;font-weight:450;letter-spacing:-.02em}
+.person h2{margin-top:22px;font-size:20px;font-weight:450;letter-spacing:-.02em}
 .person p{margin-top:6px;font-size:15px;line-height:1.5;color:var(--mute);max-width:24em;text-wrap:pretty}
 .person p.role{margin-top:2px;color:var(--ink)}
 .person .ln-link{display:inline-block;margin-top:4px;padding:10px 0;font-size:15px;border-bottom:1px solid var(--line);padding-bottom:1px;transition:border-color .2s}
@@ -229,12 +229,12 @@ button{font:inherit;color:inherit}
   </section>
 
   <section class="people wrap" aria-label="Leadership">
-    <article class="person up"><div class="ph"><img src="../../assets/team/shane-kehoe-white.jpg" alt="" loading="lazy"></div><h2>Shane Kehoe</h2><p class="role">CEO</p><p>25+ years in global capital markets. Former BlueCrest Partner and Portfolio Manager; co-founder of SVK Crypto VC.</p></article>
-    <article class="person up" style="--d:.08s"><div class="ph"><img src="../../assets/team/hewie-rattray-white.jpg" alt="" loading="lazy"></div><h2>Hewie Rattray</h2><p class="role">COO</p><p>CEO, London BTC Company (LSE:BTC). Founder/operator with &gt;£100m capital raising and advisory experience.</p></article>
-    <article class="person up" style="--d:.16s"><div class="ph"><img src="../../assets/team/tommy-ngo-white.jpg" alt="" loading="lazy"></div><h2>Tommy Ngo</h2><p class="role">CTO / Technical lead</p><p>Neurotechnology and AI; Imperial College London and Oxford Big Data research; former Trireme COO.</p><a class="ln-link" aria-label="Tommy Ngo on LinkedIn (opens in a new tab)" href="https://www.linkedin.com/in/tommyngo-ntech/" target="_blank" rel="noopener">LinkedIn ↗</a></article>
-    <article class="person up"><div class="ph"><img src="../../assets/team/xuhhad-babar-white.jpg" alt="" loading="lazy"></div><h2>Xuhhad Babar</h2><p class="role">CFO</p><p>Audit readiness, public-market risk and controls; former Total Energy Services and Ernst &amp; Young.</p></article>
-    <article class="person up" style="--d:.08s"><div class="ph"><img src="../../assets/team/michal-struk-placeholder.jpg" alt="" loading="lazy"></div><h2>Michal Struk</h2><p class="role">Ecosystem lead</p><p>Former Tools for Humanity engineer. Built and scaled Mini Apps in the World ecosystem; 0 to 1M+ users.</p></article>
-    <article class="person up" style="--d:.16s"><div class="ph"><img src="../../assets/team/ross-andrews-white.jpg" style="--s:1.14;--o:100%" alt="" loading="lazy"></div><h2>Ross Andrews</h2><p class="role">Chairman</p><p>Former Zeus Capital main board director. Senior PLC advisory and public-company experience.</p><a class="ln-link" aria-label="Ross Andrews on LinkedIn (opens in a new tab)" href="https://www.linkedin.com/in/ross-andrews-71105110/" target="_blank" rel="noopener">LinkedIn ↗</a></article>
+    <article class="person up"><div class="ph"><img src="../../assets/team/shane-kehoe-circle.jpg" alt="" loading="lazy"></div><h2>Shane Kehoe</h2><p class="role">CEO</p><p>25+ years in global capital markets. Former BlueCrest Partner and Portfolio Manager; co-founder of SVK Crypto VC.</p></article>
+    <article class="person up" style="--d:.08s"><div class="ph"><img src="../../assets/team/hewie-rattray-circle.jpg" alt="" loading="lazy"></div><h2>Hewie Rattray</h2><p class="role">COO</p><p>CEO, London BTC Company (LSE:BTC). Founder/operator with &gt;£100m capital raising and advisory experience.</p></article>
+    <article class="person up" style="--d:.16s"><div class="ph"><img src="../../assets/team/tommy-ngo-circle.jpg" alt="" loading="lazy"></div><h2>Tommy Ngo</h2><p class="role">CTO / Technical lead</p><p>Neurotechnology and AI; Imperial College London and Oxford Big Data research; former Trireme COO.</p><a class="ln-link" aria-label="Tommy Ngo on LinkedIn (opens in a new tab)" href="https://www.linkedin.com/in/tommyngo-ntech/" target="_blank" rel="noopener">LinkedIn ↗</a></article>
+    <article class="person up"><div class="ph"><img src="../../assets/team/xuhhad-babar-circle.jpg" alt="" loading="lazy"></div><h2>Xuhhad Babar</h2><p class="role">CFO</p><p>Audit readiness, public-market risk and controls; former Total Energy Services and Ernst &amp; Young.</p></article>
+    <article class="person up" style="--d:.08s"><div class="ph"><img src="../../assets/team/michal-struk-circle.jpg" alt="" loading="lazy"></div><h2>Michal Struk</h2><p class="role">Ecosystem lead</p><p>Former Tools for Humanity engineer. Built and scaled Mini Apps in the World ecosystem; 0 to 1M+ users.</p></article>
+    <article class="person up" style="--d:.16s"><div class="ph"><img src="../../assets/team/ross-andrews-circle.jpg" alt="" loading="lazy"></div><h2>Ross Andrews</h2><p class="role">Chairman</p><p>Former Zeus Capital main board director. Senior PLC advisory and public-company experience.</p><a class="ln-link" aria-label="Ross Andrews on LinkedIn (opens in a new tab)" href="https://www.linkedin.com/in/ross-andrews-71105110/" target="_blank" rel="noopener">LinkedIn ↗</a></article>
   </section>
 
   <section class="contact wrap" id="contact" aria-labelledby="ct-h">
